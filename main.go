@@ -138,7 +138,7 @@ func main() {
 		fmt.Println()
 		return
 	}
-	cmd := exec.Command("curl", opts...)
+	cmd := exec.Command("ebcurl", opts...)
 	cmd.Stdin = stdin
 	cmd.Stdout = stdout
 	cmd.Stderr = &formatter.HeaderCleaner{
