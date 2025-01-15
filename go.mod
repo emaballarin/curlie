@@ -1,4 +1,4 @@
-module github.com/rs/curlie
+module github.com/emaballarin/curlie
 
 require (
 	golang.org/x/crypto v0.32.0
